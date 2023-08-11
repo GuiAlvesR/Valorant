@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Kanit:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.jpg" alt="Logo Valorant">
+    </header>
+
+    <main class="selecao-de-personagens">
+
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="viper" data-name="Viper"
+                    data-description="Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo. ">
+                    <img src="./src/imagens/viper.png" alt="Personagem Viper">
+                </li>
+                <li class="personagem" id="chamber" data-name="Chamber"
+                    data-description="Bem-vestido e armado até os dentes, o criador de armas francês Chamber coloca os inimigos para correr com precisão mortal. ">
+                    <img src="./src/imagens/Chamber.png" alt=" Personagem Chamber">
+                </li>
+                <li class="personagem" id="brimstone" data-name="Brimstone"
+                    data-description="Vindo diretamente dos EUA, o arsenal orbital do Brimstone garante que o esquadrão dele sempre esteja em vantagem.">
+                    <img src="./src/imagens/brimstone.png" alt="Personagem Brimstone">
+                </li>
+                <li class="personagem" id="sova" data-name="Sova"
+                    data-description="Nascido sob o eterno inverno das tundras russas, Sova rastreia, encontra e elimina inimigos com eficiência e precisão implacáveis.">
+                    <img src="./src/imagens/sova.png" alt="Personagem Sova">
+                </li>
+                <li class="personagem" id="phoenix" data-name="Phoenix"
+                    data-description="Chegando com tudo diretamente do Reino Unido, o poder estelar de Phoenix reluz em seu estilo de luta, incendiando o campo de batalha com luz e estilo.">
+                    <img src="./src/imagens/phoenix.png" alt="Personagem Phoenix">
+                </li>
+                <li class="personagem" id="omen" data-name="Omen"
+                    data-description="Omen, uma lembrança fantasmagórica, caça nas sombras.">
+                    <img src="./src/imagens/omen.png" alt="Personagem Omen">
+                </li>
+                <li class="personagem" id="cypher" data-name="Cypher"
+                    data-description="Cypher, um vendedor de informações do Marrocos, é uma verdadeira rede de vigilância de um homem só que fica de olho em cada movimento dos inimigos. Nenhum segredo está a salvo.">
+                    <img src="./src/imagens/cypher.png" alt="Personagem Cypher">
+                </li>
+                <li class="personagem" id="reyna" data-name="Reyna"
+                    data-description="Criada no coração do México, Reyna domina o combate individual, destacando-se a cada abate efetuado. ">
+                    <img src="./src/imagens/reyna.png" alt="Personagem Reyna">
+                </li>
+                <li class="personagem" id="neon" data-name="Neon"
+                    data-description="Yoru, nativo do Japão, abre fendas na realidade para infiltrar as linhas inimigas sem ser visto.">
+                    <img src="./src/imagens/neon.png" alt="Personagem Neon">
+                </li>
+                <li class="personagem" id="raze" data-name="Raze"
+                    data-description="Raze chega do Brasil com uma explosão de carisma e armas enormes. Com seu estilo de jogo porradeiro, ela é craque em desentocar inimigos entrincheirados e limpar espaços apertados com uma bela dose de BUUUM!">
+                    <img src="./src/imagens/raze.png" alt="Personagem Raze">
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-viper.png" alt="Viper">
+
+            <div class="informacoes-personagem">
+
+                <h2 class="nome-personagem" id="nome-personagem">Viper</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Viper, a química dos Estados Unidos,
+                    empregauma variedade de dispositivos químicos venenosos para controlar o campo de batalha e
+                    prejudicar a visão do inimigo.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+body {
+    font-family:"Kanit";
+	color: #fffdfd;
+}
+
+body::before{
+
+    content: "";
+    background-image: url(../imagens/bg1-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+.cabecalho{
+    display: flex; 
+    justify-content: center;
+}
+
+.cabecalho > img{
+    width: 300px;
+    height: 170px;
+}
+
+.selecao-de-personagens {
+	display: flex;
+	align-items: center;
+    gap:30px;
+    min-height: calc(100vh - 152%);
+    justify-content: center;
+}
+
+.selecao-de-personagens .lista-de-personagens {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+
+
+}
+
+.selecao-de-personagens .personagens {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1000px;
+	gap: 5px;
+}
+
+.selecao-de-personagens .personagens .titulo {
+	font-size: 20px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #e91010;
+	width:500px;
+	text-align: center;
+   
+}
+
+
+.lista-de-personagens .personagem {
+	border-bottom: 4px solid#e91010;
+}
+
+.lista-de-personagens .personagem img {
+    width: 100%;
+    height: 195px;
+}
+
+.lista-de-personagens .personagem.selecionado {
+	box-shadow: 0px 0px 24px 5px #e91010;
+}
+
+.personagem-selecionado{
+    max-width: 600px;   
+    text-align: center;
+    max-height: 530px;
+    margin-right: 20px;
+}
+
+.personagem-selecionado .personagem-grande{
+    width: 500px;
+    height: 300px;
+}
+
+.personagem-selecionado .nome-personagem{
+    border-bottom: 2px solid #e91010;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+}
+ 
+.personagem-selecionado .descricao-personagem{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+}
+
+
+
+
+
