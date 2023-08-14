@@ -8,10 +8,12 @@
       flex-direction: column-reverse;
       max-width: 430px;
       margin: 0 auto;
+      
    }
    
    .selecao-de-personagens .personagens{
       margin-top: 20px;
+     
    }
    
    .selecao-de-personagens .personagens .titulo{
@@ -19,7 +21,8 @@
    }
    
    .selecao-de-personagens .lista-de-personagens{
-      gap: 9px
+      gap: 10px;
+      margin-right: 20px;
    }
    
    .selecao-de-personagens .personagem img{
@@ -33,10 +36,12 @@
    .personagem-selecionado .personagem-grande{
       width: 350px;
       height: 350px;
+      margin-left: 30px;
+      
    }
    
    .personagem-selecionado .descricao-personagem{
-      width: 80%;
+      width: 100%;
       font-size: 16px;
       margin: 20px auto;
    }
